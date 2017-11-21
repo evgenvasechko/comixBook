@@ -1,0 +1,533 @@
+ /* For portable devices */
+
+@media only screen and (max-width: 960px) {
+    /* Log in Page styles*/
+    
+    .login-form {
+        margin-top: 1em;
+    }
+    
+    
+    /*
+    .login-form span {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;  
+        margin: 10px auto;  
+    }
+
+    .login-buttons {
+        height: 5.3125em;
+    }
+    */
+    
+    /* Search styles */
+    #searchInput {
+        width: 100%;
+        display: none;
+        margin: 4em 0 0 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0.5em 0;
+        position: absolute;
+        text-align: center;
+    }
+    
+    #searchInput input {
+        width: 75%;
+    }
+    
+    /* Dropdown menu styles */
+    #primary_nav_wrap {
+        width: 100%;
+        display: none;
+        margin: 10.625em 0 0 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+        position: absolute;
+        text-align: center;
+    }
+    
+    #primary_nav_wrap ul {
+        list-style: none;
+        padding: 0 0 1em 0;
+        margin: 1em 0 0 0;
+    }
+    
+    #primary_nav_wrap a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    
+    #dropdownMobile li {   
+        padding: 0.5em 0 0 0;
+    }
+
+    
+    /* Logo styles */
+    .logo {
+        height: 2em;
+    }
+    
+    
+    /* Categories block styles */
+    .categories {
+        background: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-align: center;
+        padding: 1.5em 0 1.5em 0;
+        margin-top: 0.5em;
+    }
+    
+    .categories h2 {
+        padding: 0.5em;
+        margin: 0;
+    }
+    
+    .categories a {
+        margin: 0.5em 0 0 2.5em;
+        display: block;
+        color: #fff;
+        text-align: left;
+        width: 70%;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    
+    
+    /* Content block styles */
+    .content {
+        background: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        text-align: center;
+        padding: 0.5em 0 0 0;
+        margin-top: 0.5em;
+    }
+    
+    .content_item {
+        padding-bottom: 0.5em;
+        border-bottom: solid #535154 1px;
+    }
+    
+    .content_item a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    
+    .content_item h2 {
+        margin-top: 0;
+    }
+    
+    .content_item img {
+        width: 90%;  
+    }
+    
+    .content_item p {
+        display: none;
+    }
+    
+    .content .comics_page {
+        width: 90%;
+        display: block;
+        margin: 1em auto;
+    }
+    
+    .controls_desc {
+        display: none;
+    }
+    
+    .content .controls_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .content button {
+        margin-bottom: 1em;
+    }
+    
+    
+    /* Adding comics form page & Registration form styles */
+    
+    .adding_comics_form, 
+    .registration_form, 
+    .login-form {
+        color: #ffffff;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .adding_comics_form label, 
+    .registration_form label, 
+    .login-form {
+        font-size: 1.3em;
+    }
+    
+    .adding_comics_form #wantToShare {
+        zoom: 1.5;
+    }
+    
+    .adding_comics_form #description {
+        height: 10em;
+    }
+    
+    .adding_comics_form select, 
+    .adding_comics_form input, 
+    .registration_form input, 
+    .login-form input, 
+    textarea{
+        display: block;
+        margin: 0.5em auto 1.5em auto;
+        width: 70%;
+        resize: none;
+        margin-bottom: 1.5em;
+    }
+    
+    .adding_comics_form a button, 
+    .registration_form a button{
+        padding: 0.5em 5%;
+    }
+    
+}
+
+ /* For desktop */
+
+@media only screen and (min-width: 960px) {
+    
+    button.search, 
+    button.user {
+        display: none;
+    }
+    
+    .login-form {
+        margin: 100px auto;
+        width: 40%;
+        height: 31.25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 5%;
+        border: solid #ffffff 1px;
+    }
+
+    .login-form span {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;  
+        margin: 10px auto;  
+    }
+
+    .login-buttons {
+        height: 5.3125em;
+    }
+
+    .logo {
+        height: 3em;
+    }
+    
+    #searchInput {
+        
+    }
+    
+    .categories {
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+        margin: 1em 1% 1em 2%;
+        color: #ffffff;
+    }
+    
+    .categories h2 {
+        text-align: center;
+    }
+    
+    .categories a {
+        display: block;
+        margin: 0.5em 0 0.5em 10%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5em;
+        margin-top: 0.5em;        
+    }
+    
+    .content { 
+        display: inline-block;
+        width: 73%;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+        margin: 1em 2% 1em 1%;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .content_item {
+        display: inline-block;
+        width: 46%;
+        padding: 0 1em 1em 1em;
+        vertical-align: top;
+        border: solid 1px #fff;
+        border-radius: 10px;
+        margin: 0.5em 0 0.5em 0;
+        box-sizing: content-box;
+    }
+    
+    .content_item a {
+        color: #fff;
+        text-decoration: none;        
+    }
+    
+    .content_item a h2 {
+        
+    }
+    
+    .content_item a img {
+        width: 40%;
+        height: 20em;
+        display: inline-block;
+    }
+    
+    .content_item a p {
+        width: 55%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1.3em;
+        margin: 0 2%;
+        text-align: left;
+    }
+    
+    .comics_view {
+        width: 100%;
+        margin: 1em auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .comics_view img{
+        width: 35%;
+        margin: 1em 0 1em 0;
+    }
+    
+    .controls_desc {
+        text-align: center;
+        font-size: 5em;
+        border-style: none;
+    }
+    
+    .controls_mobile {
+        display: none;
+    }
+    
+    
+    
+    
+    /* Dropdown menu */
+
+
+    #primary_nav_wrap
+    {
+        line-height: 5em;
+        width: 15%;
+        text-align: center;
+    }
+
+    #primary_nav_wrap ul
+    {
+        width: 100%;
+        list-style: none;
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    #primary_nav_wrap ul a
+    {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 0 15px;
+        font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    #primary_nav_wrap ul li
+    {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #primary_nav_wrap ul li.current-menu-item
+    {
+        background:#ddd;
+    }
+
+    #primary_nav_wrap ul li:hover
+    {
+    }
+
+    #primary_nav_wrap ul ul
+    {
+        display:none;
+        position: absolute;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+        width: 100%;
+    }
+
+    #primary_nav_wrap ul ul li
+    {
+        float:none;
+        width:100%;
+    }
+
+    #primary_nav_wrap ul ul a
+    {
+        line-height:120%;
+        padding:10px 15px;
+    }
+
+    #primary_nav_wrap ul ul ul
+    {
+        top:0;
+        left:100%;
+    }
+
+    #primary_nav_wrap ul li:hover > ul
+    {
+        display:block;
+    }
+    
+    
+    .adding_comics_form, 
+    .registration_form {
+        margin: 60px auto;
+        font-weight: 100;
+        width: 40%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+        border: solid #ffffff 1px;
+    }
+    
+    .adding_comics_form label, 
+    .registration_form label {
+        font-size: 1.3em;
+        width: 90%;
+    }
+    
+    .adding_comics_form #wantToShare {
+        zoom: 1.5;
+    }
+    
+    .adding_comics_form select, 
+    .adding_comics_form input, 
+    textarea, 
+    .registration_form input{
+        display: block;
+        margin: 0.5em auto 1.5em auto;
+        width: 90%;
+        resize: none;
+        margin-bottom: 1.5em;
+    }
+    
+    .adding_comics_form a, 
+    .registration_form a {
+        width: 90%;
+    }
+    
+    .adding_comics_form a button, 
+    .registration_form a button{
+        padding: 0.5em 35%;
+        width: 100%;
+    }
+    
+    .want_to_share {
+        width: 90%;
+    }
+    
+    .want_to_share label{
+        display: inline;
+    }
+    
+    .want_to_share input {
+        display: inline;
+        width: 10%;
+        vertical-align: sub;
+    }
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;    
+    font-family: 'Open Sans';
+}
+
+header {
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+input {
+    background: transparent;
+    border: solid 1px #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+}
+
+button {
+    background: transparent;
+    border: solid 1px #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    outline: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<!doctype>
+<html>
+    <head>
+        <title>ComicsBook</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+       
+        <header>
+            <button class="search" id="searchButton"><i class="fa fa-search" aria-hidden="true"></i></button>
+            
+            <div class="search" id="searchInput">
+                <input type="text">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            
+            <a href="home_page.html"><img src="img/logo.png" alt="ComixBook" class="logo"></a>
+            
+            <button class="user" id="userButton"><i class="fa fa-user" aria-hidden="true"></i></button>
+            
+            <nav id="primary_nav_wrap" class="user">
+                <ul>
+                  <li><a href="#">Evgen</a>
+                    <ul id="dropdownMobile">
+                      <li><a href="#">My profile</a></li>
+                      <li><a href="add_comics_page.html">Add comics</a></li>
+                      <li><a href="#">My comics</a></li>
+                      <li><a href="#">Favorite comics</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <form action="" class="registration_form">
+            <h2 class="header">Registration</h2>
+            
+            <label for="">NAME</label>
+            <input type="text">
+            
+            <label for="series">E-MAIL</label>
+            <input type="email" autocapitalize="off" autocorrect="off" autocomplete="email">
+            
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password">
+            
+            <label for="repeatPassword">REPEAT PASSWORD</label>
+            <input type="password" id="repeatPassword" name="repeatPassword">
+            
+            {{--<a href="/comics/{id}">--}}<button type="submit">REGISTER</button>{{--</a>--}}
+            
+        </form>
+        
+        <footer></footer>
+    </body>
+</html>

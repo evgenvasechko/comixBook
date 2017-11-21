@@ -1,0 +1,72 @@
+<!doctype>
+<html>
+    <head>
+        <title>ComicsBook</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+       
+        <header>
+            <button class="search" id="searchButton"><i class="fa fa-search" aria-hidden="true"></i></button>
+            
+            <div class="search" id="searchInput">
+                <input type="text">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            
+            <a href="home_page.html"><img src="img/logo.png" alt="ComixBook" class="logo"></a>
+            
+            <button class="user" id="userButton"><i class="fa fa-user" aria-hidden="true"></i></button>
+            
+            <nav id="primary_nav_wrap" class="user">
+                <ul>
+                  <li><a href="#">Evgen</a>
+                    <ul id="dropdownMobile">
+                      <li><a href="#">My profile</a></li>
+                      <li><a href="add_comics_page.html">Add comics</a></li>
+                      <li><a href="#">My comics</a></li>
+                      <li><a href="#">Favorite comics</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <form action="" class="adding_comics_form">
+            <h2 class="header">Add new comics</h2>
+            
+            <label for="author">Author</label>
+            <select id="author" name="author"></select>
+            
+            <label for="series">Series</label>
+            <select id="series" name="Series"></select>
+            
+            <label for="language">Language</label>
+            <input id="language" name="language">
+            
+            <label for="year">Year</label>
+            <input id="year" name="year">
+            
+            <label for="file">File</label>
+            <input id="file" name="file" type="file">
+            
+            <label for="description">Descriprion</label>
+            <textarea id="description" name="description"></textarea>
+            
+            <div class="want_to_share">
+                <label for="wantToShare">Share it</label>
+                <input type="checkbox" id="wantToShare" name="wantToShare">
+            </div>
+            
+            <a href="#"><button type="submit">Add</button></a>
+            
+        </form>
+        
+        <footer></footer>
+    </body>
+</html>
